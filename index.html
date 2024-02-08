@@ -1,20 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-  
-    <title>Altcraft Popup Test</title>
-  </head>
-  <body>
-    <h1 style="color: green; font-size: 40px">Тут мы тестим попап в теге</h1>
-      <script>
-        setTimeout(() => {
-          console.log('two hours later');
-        }, 30000);
-      </script>
-      <script>
+    <script>
         (function (window, document, dataLayerName, containerID) {
             window[dataLayerName] = window[dataLayerName] || [];
             window[dataLayerName].push({ 'start': new Date().getTime(), event: 'actm-js' });
@@ -28,6 +15,19 @@
                 firstScript.parentNode.insertBefore(script, firstScript);
             }
         }(window, document, 'acDataLayer', 'ATM-fCfbNXxhb_dfuMNX'));
+    </script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+  
+    <title>Altcraft Popup Test</title>
+  </head>
+  <body>
+    <h1 style="color: green; font-size: 40px">Тут мы тестим попап в теге</h1>
+    <script>
+      setTimeout(() => {
+        console.log('two hours later');
+      }, 30000);
     </script>
   </body>
 </html>
