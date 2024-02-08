@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+  
+    <title>Altcraft Popup Test</title>
+  </head>
+  <body>
+    <h1 style="color: green; font-size: 40px">Тут мы тестим попап в теге</>
+      
+  </body>
+</html>
